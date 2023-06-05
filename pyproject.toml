@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "llava"
+name = "Reasoning"
 version = "0.1.0"
-description = "Towards GPT-4 like large language and visual assistant."
+description = "Large Language-and-Vision based Reasoning Module"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
@@ -21,7 +21,7 @@ dependencies = [
 
 [project.urls]
 "Homepage" = "https://llava-vl.github.io"
-"Bug Tracker" = "https://github.com/haotian-liu/LLaVA/issues"
+"Bug Tracker" = "https://github.com/dailyrobotics/Reasoning/issues"
 
 [tool.setuptools.packages.find]
 exclude = ["assets*", "benchmark*", "docs", "dist*", "playground*", "scripts*", "tests*"]
